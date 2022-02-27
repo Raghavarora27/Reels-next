@@ -22,7 +22,7 @@
 }
 
 .video-container > video{
-    border-radius: 10px;
+    border-radius: 20px;
     /* height: 80vh; */
     object-fit: fill;
     width: 100%;
@@ -34,6 +34,8 @@
     bottom: 2.5rem;
     left: 1rem;
     color: white;
+    display: flex;
+    justify-content: start;
 }
 
 @media screen and (max-width: 350px){
