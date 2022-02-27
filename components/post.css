@@ -35,7 +35,13 @@
     left: 1rem;
     color: white;
     display: flex;
-    justify-content: start;
+    justify-content:start;
+    align-items: center;
+}
+
+.like{
+    position: absolute;
+    left: 15rem;
 }
 
 @media screen and (max-width: 350px){
